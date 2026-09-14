@@ -1,0 +1,18 @@
+title: Khairul Khakim
+description: LSP Administrator, BNSP Assessor, dan catatan profesional seputar sertifikasi kompetensi.
+url: https://khakim.my.id
+baseurl: ""
+timezone: Asia/Jakarta
+permalink: /blog/:title/
+markdown: kramdown
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+
+exclude:
+  - README.md
+  - PANDUAN-CMS.md

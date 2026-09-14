@@ -1,0 +1,64 @@
+# yaml-language-server: $schema=https://unpkg.com/@sveltia/cms/schema/sveltia-cms.json
+
+backend:
+  name: github
+  repo: khairulkhakim/khairulkhakim.github.io
+  branch: main
+
+site_url: https://khakim.my.id
+display_url: https://khakim.my.id
+logo_url: https://khakim.my.id/foto-profil.png
+locale: id
+
+media_folder: uploads
+public_folder: /uploads
+
+collections:
+  - name: posts
+    label: Blog
+    label_singular: Tulisan
+    folder: _posts
+    create: true
+    delete: true
+    extension: md
+    format: frontmatter
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    summary: "{{title}} — {{date}}"
+    sortable_fields: [date, title]
+    fields:
+      - { label: Judul, name: title, widget: string }
+      - { label: Tanggal terbit, name: date, widget: datetime, format: "YYYY-MM-DD HH:mm:ss Z" }
+      - { label: Ringkasan, name: description, widget: text, hint: "Tampil di daftar blog dan mesin pencari." }
+      - { label: Gambar sampul, name: cover, widget: image, required: false }
+      - { label: Teks alternatif gambar, name: cover_alt, widget: string, required: false }
+      - { label: Kategori, name: categories, widget: list, required: false, default: [Sertifikasi] }
+      - { label: Terbitkan, name: published, widget: boolean, default: true }
+      - { label: Isi tulisan, name: body, widget: richtext }
+
+  - name: site_data
+    label: Galeri
+    files:
+      - label: Galeri Portofolio
+        name: gallery
+        file: _data/gallery.yml
+        fields:
+          - label: Foto galeri
+            label_singular: Foto
+            name: items
+            widget: list
+            summary: "{{fields.title}} — {{fields.category}} {{fields.year}}"
+            fields:
+              - { label: Judul, name: title, widget: string }
+              - label: Kategori
+                name: category
+                widget: select
+                options:
+                  - { label: Administrasi, value: administrasi }
+                  - { label: Sertifikasi, value: sertifikasi }
+                  - { label: Event, value: event }
+                  - { label: Website, value: website }
+                  - { label: Laporan, value: laporan }
+              - { label: Tahun, name: year, widget: number, value_type: int, min: 2000, max: 2100 }
+              - { label: Gambar, name: image, widget: image }
+              - { label: Deskripsi gambar, name: alt, widget: string, hint: "Jelaskan isi foto secara singkat untuk aksesibilitas." }
+
