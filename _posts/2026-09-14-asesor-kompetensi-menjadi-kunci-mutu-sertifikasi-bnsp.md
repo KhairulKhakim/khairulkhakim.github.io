@@ -17,8 +17,6 @@ BNSP merupakan lembaga independen yang melaksanakan sertifikasi kompetensi kerja
 
 BNSP juga memuat modul pelatihan asesor dan Recognition of Current Competency melalui keputusan tersendiri. Dengan demikian, penguatan kapasitas asesor kompetensi ditempatkan sebagai bagian dari tata kelola sertifikasi nasional.
 
-**Baca juga:** Tahapan Uji Kompetensi yang Perlu Dipahami Peserta
-
 ## Menilai Bukti Secara Objektif
 
 Asesor memeriksa kecukupan, keaslian, dan relevansi bukti terhadap unit kompetensi. Namun, keputusan kompeten tidak semestinya didasarkan pada kedekatan, jabatan peserta, atau kepentingan lembaga penyelenggara.
@@ -26,8 +24,6 @@ Asesor memeriksa kecukupan, keaslian, dan relevansi bukti terhadap unit kompeten
 Data ketenagakerjaan resmi mencatat 59,93 juta pekerja formal dan 87,74 juta pekerja informal pada Februari 2026. Karena itu, metode asesmen perlu mampu mengakomodasi bukti dari pengalaman kerja yang beragam.
 
 Kajian keterampilan global menyebut banyak pembelajaran berlangsung secara informal melalui pekerjaan, rekan, dan pengalaman praktis. Sementara itu, jalur pengakuan keterampilan diperlukan agar pengalaman tersebut dapat mengarah pada kualifikasi yang diakui.
-
-**Baca juga:** Menyiapkan Bukti Portofolio untuk Asesmen Kompetensi
 
 ## Kompetensi Asesor Perlu Dijaga
 
