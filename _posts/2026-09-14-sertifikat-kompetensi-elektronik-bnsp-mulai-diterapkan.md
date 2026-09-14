@@ -9,15 +9,13 @@ categories:
 published: true
 ---
 
-*Ilustrasi digital proses peninjauan sertifikat kompetensi elektronik.*
+_Ilustrasi digital proses peninjauan sertifikat kompetensi elektronik._
 
 Tangerang, 14 September 2026 — Badan Nasional Sertifikasi Profesi menetapkan tahap pertama penerapan sertifikat kompetensi elektronik pada Juli 2026. Kebijakan tersebut mencakup bidang, skema, dan Lembaga Sertifikasi Profesi tertentu.
 
 Keputusan BNSP Nomor KEP.2568/BNSP/VII/2026 melengkapi pedoman penerbitan melalui Keputusan Nomor KEP.2539/BNSP/VII/2026. Selain itu, dokumen resmi tersebut menjadi dasar penyelenggara dalam mengelola bukti kompetensi secara digital.
 
 Data ketenagakerjaan resmi menunjukkan 147,67 juta penduduk bekerja pada Februari 2026. Sementara itu, angkatan kerja mencapai 154,91 juta orang dan tingkat pengangguran terbuka tercatat 4,68 persen. Rata-rata upah buruh berada pada Rp3,29 juta, sehingga pengakuan keterampilan tetap berkaitan dengan kualitas pekerjaan dan peluang pendapatan.
-
-**Baca juga:** Cara Memilih Skema Sertifikasi Sesuai Pekerjaan
 
 ## Kebutuhan Kredensial Terverifikasi
 
@@ -26,8 +24,6 @@ Besarnya pasar kerja menuntut bukti kompetensi yang mudah diperiksa oleh pekerja
 Laporan ketenagakerjaan global terbaru menyebut akses pelatihan bermutu masih timpang, terutama bagi pekerja informal dan berkualifikasi rendah. Namun, pembelajaran yang menghasilkan kualifikasi diakui dapat memperkuat ketahanan pekerja menghadapi perubahan digital.
 
 Kajian pasar kerja terbaru juga menilai kesenjangan keterampilan membatasi produktivitas dan pertumbuhan pekerjaan berkualitas di Indonesia. Karena itu, penguatan sistem sertifikasi perlu berjalan bersama pelatihan, informasi pasar kerja, dan kebutuhan industri.
-
-**Baca juga:** Mengapa Sertifikasi Kompetensi Penting bagi Pekerja
 
 ## Penerapan Memerlukan Tata Kelola
 
