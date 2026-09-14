@@ -9,7 +9,7 @@ categories:
 published: true
 ---
 
-*Ilustrasi digital pelaksanaan asesmen kompetensi berbasis bukti praktik.*
+_Ilustrasi digital pelaksanaan asesmen kompetensi berbasis bukti praktik._
 
 Tangerang, 14 September 2026 — Asesor kompetensi tetap memegang peran utama dalam menjaga mutu sertifikasi BNSP pada 2026. Mereka menilai bukti peserta berdasarkan skema, standar, dan perangkat asesmen yang berlaku.
 
