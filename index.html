@@ -1173,11 +1173,11 @@ layout: null
     <li><a href="#experience">Experience</a></li>
     <li><a href="#projects">Projects</a></li>
     <li><a href="/blog/">Blog</a></li>
-    <li><a href="/card/">Contact</a></li>
+    <li><a href="#contact">Contact</a></li>
   </ul>
   <div class="nav-actions">
     <a href="/blog/" class="btn-blog-mobile">Blog</a>
-    <a href="/card/" class="btn-hire">
+    <a href="#contact" class="btn-hire">
       <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
       Hire Me
     </a>
@@ -1203,7 +1203,7 @@ layout: null
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
           View My Work
         </a>
-        <a href="/card/" class="btn-secondary">
+        <a href="#contact" class="btn-secondary">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
           Contact Me
         </a>
@@ -1260,7 +1260,7 @@ layout: null
     <div class="about-grid">
       <div class="about-bio fade-up fade-up-d1">
         <p>Berpengalaman dalam mengelola program sertifikasi, sistem administrasi, dan alur kerja operasional di LSP. Terbiasa dengan dokumentasi, pengelolaan database, pembuatan laporan, dan koordinasi kegiatan sertifikasi.</p>
-        <a href="/card/" class="btn-primary" style="display: inline-flex; width: fit-content; font-size: 14px; padding: 11px 22px;">Selengkapnya →</a>
+        <a href="#contact" class="btn-primary" style="display: inline-flex; width: fit-content; font-size: 14px; padding: 11px 22px;">Selengkapnya →</a>
       </div>
       <div class="about-skills fade-up fade-up-d2">
         <div class="about-block-title">Keahlian Utama</div>
@@ -1526,7 +1526,7 @@ layout: null
     </div>
     <div class="highlight-right">
       <p>Siap membantu organisasi Anda dalam mengelola sistem sertifikasi secara profesional, efisien, dan sesuai standar.</p>
-      <a href="/card/" class="btn-work-together">
+      <a href="#contact" class="btn-work-together">
         Mari Bekerja Sama
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
       </a>
@@ -1570,7 +1570,7 @@ layout: null
   </div>
 </a>
 <!-- Website -->
-<a href="https://khakim.my.id/card/" target="_blank" class="contact-item">
+<a href="https://linktr.ee/khairul.khakim" target="_blank" class="contact-item">
   <div class="contact-icon">
     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--green)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <circle cx="12" cy="12" r="10"/>
@@ -1580,12 +1580,12 @@ layout: null
   </div>
   <div class="contact-text">
     <div class="ct">Website</div>
-    <div class="cv">card</div>
+    <div class="cv">linktr.ee/khairul.khakim</div>
   </div>
 </a>
 </div>
-            </div>
- <form class="contact-form" id="contactForm" onsubmit="return kirimViaWA(event)">
+      </div>
+ <form class="contact-form" action="https://formspree.io/f/mlgayzgo" method="POST">
   <div class="form-row">
     <div class="form-group">
       <label>Nama Lengkap</label>
@@ -1609,24 +1609,6 @@ layout: null
     Kirim Pesan
   </button>
 </form>
-<script>
-function kirimViaWA(e) {
-  e.preventDefault();
-  const form = e.target;
-  const nama = form.nama.value;
-  const email = form.email.value;
-  const topik = form.topik.value;
-  const pesan = form.pesan.value;
-
-  const teks = `Halo Khairul, saya ${nama} (${email}).\n\nTopik: ${topik}\n\n${pesan}`;
-  const nomorWA = "6281517573895";
-
-  window.open(`https://wa.me/${nomorWA}?text=${encodeURIComponent(teks)}`, "_blank");
-
-  form.reset();
-  return false;
-}
-</script>
     </div>
   </div>
 </section>
@@ -1645,7 +1627,7 @@ function kirimViaWA(e) {
       <li><a href="#experience">Experience</a></li>
       <li><a href="#projects">Projects</a></li>
       <li><a href="/blog/">Blog</a></li>
-      <li><a href="/card/">Contact</a></li>
+      <li><a href="#contact">Contact</a></li>
     </ul>
 <div class="footer-social">
   <!-- WhatsApp -->
@@ -2069,7 +2051,7 @@ function kirimViaWA(e) {
 </div>
 <!-- THEME PICKER -->
 <div class="theme-picker">
-  <button class="theme-toggle-btn" onclick="toggleThemePanel()" title="Ganti Tema">TEMA</button>
+  <button class="theme-toggle-btn" onclick="toggleThemePanel()" title="Ganti Tema">🎨 TEMA</button>
   <div class="theme-panel" id="themePanel">
     <div class="theme-panel-title">Pilih Tema</div>
     <div class="theme-options">
