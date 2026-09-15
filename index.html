@@ -1584,8 +1584,8 @@ layout: null
   </div>
 </a>
 </div>
-      </div>
- <form class="contact-form" action="https://formspree.io/f/mlgayzgo" method="POST">
+            </div>
+ <form class="contact-form" id="contactForm" onsubmit="return kirimViaWA(event)">
   <div class="form-row">
     <div class="form-group">
       <label>Nama Lengkap</label>
@@ -1609,6 +1609,24 @@ layout: null
     Kirim Pesan
   </button>
 </form>
+<script>
+function kirimViaWA(e) {
+  e.preventDefault();
+  const form = e.target;
+  const nama = form.nama.value;
+  const email = form.email.value;
+  const topik = form.topik.value;
+  const pesan = form.pesan.value;
+
+  const teks = `Halo Khairul, saya ${nama} (${email}).\n\nTopik: ${topik}\n\n${pesan}`;
+  const nomorWA = "6281517573895";
+
+  window.open(`https://wa.me/${nomorWA}?text=${encodeURIComponent(teks)}`, "_blank");
+
+  form.reset();
+  return false;
+}
+</script>
     </div>
   </div>
 </section>
@@ -2051,7 +2069,7 @@ layout: null
 </div>
 <!-- THEME PICKER -->
 <div class="theme-picker">
-  <button class="theme-toggle-btn" onclick="toggleThemePanel()" title="Ganti Tema">🎨 TEMA</button>
+  <button class="theme-toggle-btn" onclick="toggleThemePanel()" title="Ganti Tema">TEMA</button>
   <div class="theme-panel" id="themePanel">
     <div class="theme-panel-title">Pilih Tema</div>
     <div class="theme-options">
