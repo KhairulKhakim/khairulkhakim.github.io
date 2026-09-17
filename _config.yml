@@ -1,4 +1,3 @@
-config · YML
 title: Khairul Khakim
 description: Portfolio Khairul Khakim, LSP Administrator dan BNSP Assessor yang berfokus pada administrasi LSP, sertifikasi kompetensi, dokumentasi, pelaporan, dan dukungan digital.
 url: https://khakim.my.id
@@ -6,10 +5,10 @@ baseurl: ""
 timezone: Asia/Jakarta
 permalink: /blog/:title/
 markdown: kramdown
- 
+
 plugins:
   - jekyll-sitemap
- 
+
 defaults:
   - scope:
       path: ""
@@ -20,8 +19,7 @@ defaults:
       path: "admin"
     values:
       sitemap: false
- 
+
 exclude:
   - README.md
   - PANDUAN-CMS.md
- 
