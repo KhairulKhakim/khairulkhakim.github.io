@@ -2,7 +2,7 @@
 title: Mengoperasikan Sistem ERP untuk Manajemen Ritel dan Bisnis
 date: 2026-09-17 08:00:00 +07:00
 description: Panduan memahami kompetensi ERP, bukti kerja, dan persiapan asesmen untuk manajemen ritel dan bisnis.
-cover: /uploads/exec-1a8ba859-b878-42c5-b545-412a39b46a14.png
+cover: /uploads/Mengoperasikan Sistem ERP untuk Manajemen Ritel dan Bisnis.png
 cover_alt: Ilustrasi AI seorang profesional meninjau data penjualan, persediaan, dan rantai pasok melalui sistem ERP.
 categories:
   - Sertifikasi
