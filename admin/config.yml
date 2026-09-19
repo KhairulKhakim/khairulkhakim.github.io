@@ -7,7 +7,7 @@ backend:
 
 site_url: https://khakim.my.id
 display_url: https://khakim.my.id
-logo_url: https://khakim.my.id/foto-profil.png
+logo_url: https://github.com/KhairulKhakim/khairulkhakim.github.io/blob/main/favicon.png
 locale: id
 
 media_folder: uploads
