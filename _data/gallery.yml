@@ -2,156 +2,156 @@ items:
   - title: Program PSKK
     category: event
     year: 2024
-    image: /foto-kegiatan1.jpg
+    image: /assets/foto-kegiatan/foto-kegiatan1.jpg
     alt: Dokumentasi Program PSKK
   - title: Monitoring Uji Kompetensi
     category: sertifikasi
     year: 2023
-    image: /foto-kegiatan2.jpg
+    image: /assets/foto-kegiatan/foto-kegiatan2.jpg
     alt: Dokumentasi monitoring uji kompetensi
   - title: WPA Asesor Kompetensi
     category: event
     year: 2023
-    image: /foto-kegiatan3.jpg
+    image: /assets/foto-kegiatan/foto-kegiatan3.jpg
     alt: Dokumentasi WPA asesor kompetensi
   - title: Ruang Uji Kompetensi
     category: sertifikasi
     year: 2024
-    image: /foto-kegiatan4.jpg
+    image: /assets/foto-kegiatan/foto-kegiatan4.jpg
     alt: Dokumentasi ruang uji kompetensi
   - title: BNSP Report System
     category: laporan
     year: 2024
-    image: /foto-kegiatan5.jpg
+    image: /assets/foto-kegiatan/foto-kegiatan5.jpg
     alt: Tampilan sistem laporan BNSP
   - title: Database Asesi
     category: administrasi
     year: 2023
-    image: /foto-kegiatan6.jpg
+    image: /assets/foto-kegiatan/foto-kegiatan6.jpg
     alt: Dokumentasi pengelolaan database asesi
   - title: Sertifikat Asesi
     category: sertifikasi
     year: 2024
-    image: /foto-kegiatan7.jpg
+    image: /assets/foto-kegiatan/foto-kegiatan7.jpg
     alt: Dokumentasi sertifikat asesi
   - title: Website LSP Klining Servis
     category: website
     year: 2024
-    image: /foto-kegiatan8.jpg
+    image: /assets/foto-kegiatan/foto-kegiatan8.jpg
     alt: Tampilan website LSP Klining Servis
   - title: Laporan Kegiatan
     category: administrasi
     year: 2023
-    image: /foto-kegiatan9.jpg
+    image: /assets/foto-kegiatan/foto-kegiatan9.jpg
     alt: Dokumentasi laporan kegiatan
   - title: Konten Instagram
     category: website
     year: 2024
-    image: /foto-kegiatan10.jpg
+    image: /assets/foto-kegiatan/foto-kegiatan10.jpg
     alt: Contoh konten Instagram LSP
   - title: Kegiatan Event
     category: event
     year: 2024
-    image: /foto-kegiatan11.jpg
+    image: /assets/foto-kegiatan/foto-kegiatan11.jpg
     alt: Dokumentasi kegiatan event
   - title: Proses Sertifikasi
     category: sertifikasi
     year: 2024
-    image: /foto-kegiatan12.jpg
+    image: /assets/foto-kegiatan/foto-kegiatan12.jpg
     alt: Dokumentasi proses sertifikasi
   - title: Administrasi LSP
     category: administrasi
     year: 2023
-    image: /foto-kegiatan13.jpg
+    image: /assets/foto-kegiatan/foto-kegiatan13.jpg
     alt: Dokumentasi administrasi LSP
   - title: Kegiatan PSKK
     category: event
     year: 2024
-    image: /foto-kegiatan14.jpg
+    image: /assets/foto-kegiatan/foto-kegiatan14.jpg
     alt: Dokumentasi kegiatan PSKK
   - title: Laporan BNSP
     category: laporan
     year: 2024
-    image: /foto-kegiatan15.jpg
+    image: /assets/foto-kegiatan/foto-kegiatan15.jpg
     alt: Dokumentasi laporan BNSP
   - title: Asesmen Kompetensi
     category: sertifikasi
     year: 2024
-    image: /foto-kegiatan16.jpg
+    image: /assets/foto-kegiatan/foto-kegiatan16.jpg
     alt: Dokumentasi asesmen kompetensi
   - title: Upgrading Asesor
     category: event
     year: 2023
-    image: /foto-kegiatan17.jpg
+    image: /assets/foto-kegiatan/foto-kegiatan17.jpg
     alt: Dokumentasi upgrading asesor
   - title: Pengelolaan Dokumen
     category: administrasi
     year: 2023
-    image: /foto-kegiatan18.jpg
+    image: /assets/foto-kegiatan/foto-kegiatan18.jpg
     alt: Dokumentasi pengelolaan dokumen
   - title: Konten Digital LSP
     category: website
     year: 2024
-    image: /foto-kegiatan19.jpg
+    image: /assets/foto-kegiatan/foto-kegiatan19.jpg
     alt: Contoh konten digital LSP
   - title: Uji Kompetensi
     category: sertifikasi
     year: 2024
-    image: /foto-kegiatan20.jpg
+    image: /assets/foto-kegiatan/foto-kegiatan20.jpg
     alt: Dokumentasi uji kompetensi
   - title: Kegiatan WPA
     category: event
     year: 2023
-    image: /foto-kegiatan21.jpg
+    image: /assets/foto-kegiatan/foto-kegiatan21.jpg
     alt: Dokumentasi kegiatan WPA
   - title: Dokumentasi Kegiatan
     category: laporan
     year: 2023
-    image: /foto-kegiatan22.jpg
+    image: /assets/foto-kegiatan/foto-kegiatan22.jpg
     alt: Dokumentasi kegiatan LSP
   - title: Database Sertifikasi
     category: administrasi
     year: 2024
-    image: /foto-kegiatan23.jpg
+    image: /assets/foto-kegiatan/foto-kegiatan23.jpg
     alt: Dokumentasi database sertifikasi
   - title: Pelaksanaan Asesmen
     category: sertifikasi
     year: 2024
-    image: /foto-kegiatan24.jpg
+    image: /assets/foto-kegiatan/foto-kegiatan24.jpg
     alt: Dokumentasi pelaksanaan asesmen
   - title: Monitoring LSP
     category: event
     year: 2024
-    image: /foto-kegiatan25.jpg
+    image: /assets/foto-kegiatan/foto-kegiatan25.jpg
     alt: Dokumentasi monitoring LSP
   - title: Media Sosial LSP
     category: website
     year: 2024
-    image: /foto-kegiatan26.jpg
+    image: /assets/foto-kegiatan/foto-kegiatan26.jpg
     alt: Contoh media sosial LSP
   - title: Laporan Akhir
     category: laporan
     year: 2024
-    image: /foto-kegiatan27.jpg
+    image: /assets/foto-kegiatan/foto-kegiatan27.jpg
     alt: Dokumentasi laporan akhir
   - title: Arsip Dokumen
     category: administrasi
     year: 2024
-    image: /foto-kegiatan28.jpg
+    image: /assets/foto-kegiatan/foto-kegiatan28.jpg
     alt: Dokumentasi arsip dokumen
   - title: Verifikasi Kompetensi
     category: sertifikasi
     year: 2024
-    image: /foto-kegiatan29.jpg
+    image: /assets/foto-kegiatan/foto-kegiatan29.jpg
     alt: Dokumentasi verifikasi kompetensi
   - title: Penutupan Event
     category: event
     year: 2024
-    image: /foto-kegiatan30.jpg
+    image: /assets/foto-kegiatan/foto-kegiatan30.jpg
     alt: Dokumentasi penutupan event
   - title: Rekap Administrasi
     category: administrasi
     year: 2024
-    image: /foto-kegiatan31.jpg
+    image: /assets/foto-kegiatan/foto-kegiatan31.jpg
     alt: Dokumentasi rekap administrasi
 
