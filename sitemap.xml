@@ -1,0 +1,50 @@
+---
+layout: null
+permalink: /sitemap.xml
+sitemap: false
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{%- assign seen_urls = "|" -%}
+{%- assign post_groups = site.posts | sort: "date" | reverse | group_by: "url" -%}
+{%- for group in post_groups -%}
+  {%- assign doc = group.items | first -%}
+  {%- unless doc.sitemap == false or doc.published == false -%}
+    {%- assign path = doc.url | replace: '/index.html', '/' -%}
+    {%- assign key = path | prepend: '|' | append: '|' -%}
+    {%- unless seen_urls contains key -%}
+  <url>
+    <loc>{{ path | absolute_url | xml_escape }}</loc>
+    <lastmod>{{ doc.last_modified_at | default: doc.date | date_to_xmlschema }}</lastmod>
+  </url>
+      {%- assign seen_urls = seen_urls | append: path | append: '|' -%}
+    {%- endunless -%}
+  {%- endunless -%}
+{%- endfor -%}
+{%- assign html_pages = site.html_pages | where_exp: 'doc', 'doc.sitemap != false' -%}
+{%- for doc in html_pages -%}
+  {%- assign path = doc.url | replace: '/index.html', '/' -%}
+  {%- assign key = path | prepend: '|' | append: '|' -%}
+  {%- unless path contains '/admin/' or path == '/404.html' or seen_urls contains key -%}
+  <url>
+    <loc>{{ path | absolute_url | xml_escape }}</loc>
+    {%- if doc.last_modified_at %}
+    <lastmod>{{ doc.last_modified_at | date_to_xmlschema }}</lastmod>
+    {%- endif %}
+  </url>
+    {%- assign seen_urls = seen_urls | append: path | append: '|' -%}
+  {%- endunless -%}
+{%- endfor -%}
+{%- for file in site.static_files -%}
+  {%- if file.extname == '.html' -%}
+    {%- assign path = file.path | replace: '/index.html', '/' -%}
+    {%- assign key = path | prepend: '|' | append: '|' -%}
+    {%- unless file.sitemap == false or path contains '/admin/' or path == '/404.html' or seen_urls contains key -%}
+  <url>
+    <loc>{{ path | absolute_url | xml_escape }}</loc>
+  </url>
+      {%- assign seen_urls = seen_urls | append: path | append: '|' -%}
+    {%- endunless -%}
+  {%- endif -%}
+{%- endfor %}
+</urlset>
