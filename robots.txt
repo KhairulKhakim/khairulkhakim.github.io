@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://khakim.my.id/sitemap.xml
+Sitemap: https://khakim.my.id/sitemap.txt
