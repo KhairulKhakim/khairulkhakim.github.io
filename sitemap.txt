@@ -1,0 +1,22 @@
+---
+layout: null
+permalink: /sitemap.txt
+sitemap: false
+---
+{%- assign posts = site.posts | where_exp: 'doc', 'doc.sitemap != false' -%}
+{%- assign pages = site.html_pages | where_exp: 'doc', 'doc.sitemap != false' -%}
+{%- assign files = site.static_files | where: 'extname', '.html' | where_exp: 'doc', 'doc.sitemap != false' -%}
+{%- assign post_paths = posts | map: 'url' -%}
+{%- assign page_paths = pages | map: 'url' -%}
+{%- assign file_paths = files | map: 'path' -%}
+{%- assign paths = post_paths | concat: page_paths | concat: file_paths -%}
+{%- assign urls = '' | split: ',' -%}
+{%- for path in paths -%}
+  {%- assign clean_path = path | replace: '/index.html', '/' -%}
+  {%- unless clean_path == '' or clean_path == '/404.html' or clean_path contains '/admin/' -%}
+    {%- assign url = clean_path | absolute_url -%}
+    {%- assign urls = urls | push: url -%}
+  {%- endunless -%}
+{%- endfor -%}
+{%- assign line_feed = '%0A' | url_decode -%}
+{{- urls | uniq | join: line_feed -}}
